@@ -1,0 +1,53 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database
+db.sqlite3
+db.sqlite3-journal
+*.db
+*.sqlite
+*.sqlite3
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Media files (user uploads)
+media/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# Django static files
+staticfiles/
+static/
+
+# Django secret key and settings
+local_settings.py
+secrets.json
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
